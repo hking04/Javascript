@@ -25,7 +25,7 @@ function calcularPromedio() {
     resultado.innerText = `Tu promedio es: ${promedio.toFixed(2)}`;
 
     // Determinar si aprobó
-    if (promedio >= 3) {
+    if (promedio >= 3.5) {
 
         resultado.innerText += " — ¡Aprobaste! 🎉";
 
